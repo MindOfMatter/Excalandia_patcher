@@ -1,6 +1,8 @@
 # Complete_Modpack
 
-A set of scripts and resources designed to help automate and customize modpack creation for Minecraft, specifically tailored for the **CurseForge Excalandia Modpack**. These tools allow you to enhance modpacks while respecting licensing restrictions by downloading mods directly from official sources (like Modrinth) and applying local modifications.
+![alt](https://media.forgecdn.net/attachments/description/null/description_d95d0ee1-396e-4be8-ae78-414b7f34624e.png)
+
+A set of scripts and resources designed to help automate and customize modpack creation for Minecraft, specifically tailored for the **[CurseForge Excalandia Modpack](https://www.curseforge.com/minecraft/modpacks/excalandia)**. These tools allow you to enhance modpacks while respecting licensing restrictions by downloading mods directly from official sources (like Modrinth) and applying local modifications.
 
 ---
 
