@@ -10,7 +10,6 @@ A set of scripts and resources designed to help automate and customize modpack c
 
 - **Automated Mod Downloads**: Downloads mods directly from Modrinth using their project IDs, ensuring compatibility and compliance with licensing.
 - **Audio Asset Replacement**: Easily replace or modify audio assets in mods using scripts for batch processing.
-- **Audio Shrinking & Normalization**: Optimize mod audio assets by converting, compressing, and normalizing files with tools like FFmpeg and MP3Gain.
 - **Flexible Structure**: Scripts designed to work with the CurseForge modding framework while allowing custom modifications to enhance gameplay.
 
 ---
@@ -33,10 +32,6 @@ A set of scripts and resources designed to help automate and customize modpack c
 - Automates the replacement of audio assets in mods using a custom resource pack located in `resourcepacks/MyCustomDiscs`.
 - All replaced audio .ogg files are free to use (not protected) : https://pixabay.com/
 
-### **`shrink_audio_mods.ps1`**
-- Processes audio files in mods, converting `.ogg` files to `.mp3`, normalizing volume levels, and re-converting to optimized `.ogg` format with FFmpeg.
-- Reduces file size for better performance without sacrificing quality.
-
 ---
 
 ## Folder Structure
@@ -54,11 +49,6 @@ Complete_Modpack/
 ├── scripts/
 │   ├── modrinth_downloader.py        # Python script for downloading mods
 │   ├── replace_audio_mods.ps1        # Script for replacing audio assets
-│   ├── shrink_audio_mods.ps1         # Script for shrinking audio assets
-│   └── ffmpeg/                       # FFmpeg binaries for audio processing
-│       ├── ffmpeg.exe
-│       ├── ffplay.exe
-│       └── ...
 ```
 # Prerequisites
 

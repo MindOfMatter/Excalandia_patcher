@@ -4,7 +4,6 @@ $scriptFolder = Join-Path -Path $PSScriptRoot -ChildPath "scripts"
 # Define paths to the scripts you want to run
 $modrinthDownloaderScript = Join-Path -Path $scriptFolder -ChildPath "modrinth_downloader.py"
 $replaceAudioScript = Join-Path -Path $scriptFolder -ChildPath "replace_audio_mods.ps1"
-$shrinkAudioScript = Join-Path -Path $scriptFolder -ChildPath "shrink_audio_mods.ps1"
 
 # Function to run a script and handle errors
 function Run-Script {
@@ -33,6 +32,3 @@ Run-Script -scriptPath $modrinthDownloaderScript -scriptDescription "modrinth_do
 
 # Run PowerShell script (replace_audio_mods.ps1)
 Run-Script -scriptPath $replaceAudioScript -scriptDescription "replace_audio_mods.ps1"
-
-# Run PowerShell script (shrink_audio_mods.ps1)
-Run-Script -scriptPath $shrinkAudioScript -scriptDescription "shrink_audio_mods.ps1"
