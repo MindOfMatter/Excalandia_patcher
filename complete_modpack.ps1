@@ -29,6 +29,3 @@ function Run-Script {
 
 # Run Python script (modrinth_downloader.py)
 Run-Script -scriptPath $modrinthDownloaderScript -scriptDescription "modrinth_downloader.py" -commandPrefix "python"
-
-# Run PowerShell script (replace_audio_mods.ps1)
-Run-Script -scriptPath $replaceAudioScript -scriptDescription "replace_audio_mods.ps1"
