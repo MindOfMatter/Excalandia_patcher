@@ -33,6 +33,7 @@ mod_files = {
     "explosive-enhancement-1.2.2-1.19.2.jar": "OSQ8mw2r",
     "extended_dropper-1.0.0.jar": "ajGW8XXy",
     "flatworld-1.0.5+1.19.2.jar": "xZIo4pHq",
+    "kirin-1.15.3+1.19.2.jar": "9aNz8Zqn",
     "LogsBeGone-1.1.0.jar": "SpQWQ4KX",
     "log_minecraft_startup-1.0.0.jar": "604L8uva",
     "LowDurabilitySwitcher-1.0.1+1.19.2.jar": "aq4dI2bx",
