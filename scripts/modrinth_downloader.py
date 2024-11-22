@@ -40,7 +40,6 @@ mod_files = {
     "mob-captains-v2.1.2.jar": "7tKn1fLd",
     "more-amethyst-recipes-1.0.jar": "DcLnY1WI",
     "morefuel-backport-1.19.2.jar": "lsHqikzP",
-    "moremusic-0.1.3+1.19.jar": "dGBEUH8l",
     "noxesium-0.1.4.jar": "Kw7Sm3Xf",
     "ores-1.0.0.jar": "Fv4jDxvH",
     "peaceful_fixed-1.0.jar": "xlqb2iiJ",
