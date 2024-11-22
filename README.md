@@ -17,11 +17,10 @@ A set of scripts and resources designed to help automate and customize modpack c
 ## Included Tools
 
 ### **`complete_modpack.ps1`**
-- The main script orchestrates the download, replacement, and optimization processes by running the other scripts in sequence.
+- The main script orchestrates the download, and replacement processes by running the other scripts in sequence.
 - Automates:
   - Mod downloads via the Python script.
   - Audio replacement.
-  - Audio optimization.
 
 ### **`modrinth_downloader.py`**
 - Downloads mods from Modrinth using project IDs and filenames.
