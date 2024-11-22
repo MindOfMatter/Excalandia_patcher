@@ -9,7 +9,6 @@ A set of scripts and resources designed to help automate and customize modpack c
 ## Key Features
 
 - **Automated Mod Downloads**: Downloads mods directly from Modrinth using their project IDs, ensuring compatibility and compliance with licensing.
-- **Audio Asset Replacement**: Easily replace or modify audio assets in mods using scripts for batch processing.
 - **Flexible Structure**: Scripts designed to work with the CurseForge modding framework while allowing custom modifications to enhance gameplay.
 
 ---
@@ -17,19 +16,14 @@ A set of scripts and resources designed to help automate and customize modpack c
 ## Included Tools
 
 ### **`complete_modpack.ps1`**
-- The main script orchestrates the download, and replacement processes by running the other scripts in sequence.
+- The main script orchestrates the download processes by running the other scripts in sequence.
 - Automates:
   - Mod downloads via the Python script.
-  - Audio replacement.
 
 ### **`modrinth_downloader.py`**
 - Downloads mods from Modrinth using project IDs and filenames.
 - Ensures mods are saved in the correct directory (`mods`) relative to the script folder.
 - Skips already downloaded mods for efficiency.
-
-### **`replace_audio_mods.ps1`**
-- Automates the replacement of audio assets in mods using a custom resource pack located in `resourcepacks/MyCustomDiscs`.
-- All replaced audio .ogg files are free to use (not protected) : https://pixabay.com/
 
 ---
 
@@ -39,15 +33,10 @@ A set of scripts and resources designed to help automate and customize modpack c
 Complete_Modpack/
 │
 ├── complete_modpack.ps1              # Main script
-├── resourcepacks/
-│   └── MyCustomDiscs/                # Custom audio assets
-│       ├── assets/
-│       └── pack.mcmeta
 │
 ├── mods/                             # Target directory for mods
 ├── scripts/
 │   ├── modrinth_downloader.py        # Python script for downloading mods
-│   ├── replace_audio_mods.ps1        # Script for replacing audio assets
 ```
 # Prerequisites
 
@@ -63,15 +52,6 @@ Before using the scripts, ensure the following dependencies are installed:
     ```bash
     pip install requests
     ```
-
-### **Audio Tools**
-- **FFmpeg**:
-  - Already included in the repository (`scripts/ffmpeg`).
-  - Alternatively, download from [FFmpeg.org](https://ffmpeg.org) if needed.
-
-- **MP3Gain**:
-  - Already included in the repository (`scripts/mp3gain.exe`).
-  - Alternative: [MP3Gain Official](http://mp3gain.sourceforge.net).
 
 ### **PowerShell**
 - Ensure your system allows script execution:
